@@ -1,6 +1,7 @@
 # simplerelayinfo
 
-Simple way to get information about relays on Tor! The "s"-parameter stands for search and searches through relay-names.
+Simple way to get information about relays on Tor! The "s"-parameter stands for search and searches through relay-names. host_name, country_name, nickname, flags and consensus_weight are being parsed because they are the only important ones. 
+
 
 This uses the onionoo API.
 
@@ -10,5 +11,7 @@ This uses the onionoo API.
 tor.php?s=chloe
 
 IP: 104.167.104.205 | Country: Canada | Name: chloegaytard1 | flags: Exit,Fast,Running,V2Dir,Valid [..]
+
 IP: 95.215.47.55 | Country: Sweden | Name: chloegaytard3 | flags: Exit,Fast,Running,V2Dir,Valid [..]
+
 IP: 95.215.46.49 | Country: Sweden | Name: chloegaytard2 | flags: Exit,Fast,HSDir,Running,Stable,V2Dir,Valid [..]
